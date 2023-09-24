@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    height: 100hv;
+    background: #F6FBFd;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+h1 {
+    color: rgb(212, 28, 148);
+    font-family: cursive;
+    font-size: 40px;
+}
+
+.menu {
+    margin: 1.5rem 0;
+}
+
+
+.menu a:hover {
+    background-color: rgb(255, 0, 174);
+    color: white;
+    transform: scale(1.1);
+    /* You can adjust the scale factor as desired */
+    transition: background-color .8s ease, transform 0.90s ease;
+}
+
+/* Add hover effect to store item images */
+.store-item img:hover {
+    transform: scale(1.1);
+    /* Make the image 10% larger */
+    transition: transform 0.3s ease;
+    /* Add a smooth transition effect */
+}
+
+.menu a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    /* background-color: rgb(0, 19, 128); */
+    background-color: rgb(49, 70, 186);
+    color: white;
+    font-weight: bold;
+    padding: 8px 22px;
+    border-radius: 8px;
+    box-shadow: 30px 30px 1200px rgb(255, 0, 174);
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.store-item {
+    width: 300px;
+    padding: 10px;
+}
+
+.store-item img {
+    width: 100%;
+    height: 250px;
+    display: block;
+    box-shadow: 7px 7px 900px blue;
+    border-radius: 20px;
+}
